@@ -1,0 +1,25 @@
+{
+  "name": "@rsbuild-example/ssr-express-with-manifest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" node ./server.mjs",
+    "preview": "node ./prod-server.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/plugin-react": "1.4.6",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "cross-env": "^10.1.0",
+    "express": "^5.2.1",
+    "typescript": "^5.9.3"
+  }
+}

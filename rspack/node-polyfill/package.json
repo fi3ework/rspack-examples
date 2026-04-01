@@ -1,20 +1,16 @@
 {
-  "name": "example-node-polyfill",
+  "name": "@rspack-example/node-polyfill",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/cli": "latest",
-    "@rspack/plugin-node-polyfill": "latest",
-    "@rspack/core": "latest"
-  },
-  "sideEffects": false,
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "node-polyfill-webpack-plugin": "^4.1.0"
+  }
 }

@@ -1,4 +1,4 @@
-const rspack = require('@rspack/core');
+const { rspack } = require('@rspack/core');
 const dev = process.env.NODE_ENV === 'development';
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
@@ -17,11 +17,14 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        type: 'css',
+      },
+      {
         test: /\.jsx$/,
         use: {
           loader: 'builtin:swc-loader',
           options: {
-            sourceMap: true,
             jsc: {
               parser: {
                 syntax: 'ecmascript',
@@ -53,7 +56,7 @@ const config = {
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
-		dev && new rspack.HotModuleReplacementPlugin()
+    dev && new rspack.HotModuleReplacementPlugin(),
   ].filter(Boolean),
 };
 module.exports = config;

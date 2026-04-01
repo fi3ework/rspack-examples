@@ -1,0 +1,14 @@
+{
+  "name": "@rspack-example/javascript-api",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@rspack/core": "2.0.0-rc.0",
+    "@types/node": "^24.10.9",
+    "typescript": "^5.9.3"
+  }
+}

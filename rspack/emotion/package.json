@@ -1,25 +1,22 @@
 {
-  "name": "example-emotion",
+  "name": "@rspack-example/emotion",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@rspack/cli": "latest",
-    "@rspack/core": "latest"
-  },
-  "sideEffects": false,
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@emotion/react": "11.10.6",
-    "@emotion/styled": "11.10.6",
-    "react": "17",
-    "react-dom": "17"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "@swc/plugin-emotion": "^14.7.0"
   }
 }

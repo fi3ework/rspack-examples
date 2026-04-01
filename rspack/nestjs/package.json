@@ -1,29 +1,25 @@
 {
-  "name": "example-nestjs",
+  "name": "@rspack-example/nestjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "rspack serve",
-    "start": "node dist/main.js",
-    "build": "cross-env BUILD=true rspack build"
+    "build": "cross-env BUILD=true rspack build",
+    "dev": "rspack dev",
+    "start": "node dist/main.js"
   },
   "dependencies": {
-    "run-script-webpack-plugin": "0.2.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.5",
-    "@nestjs/platform-express": "^9.0.0",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.5.5"
+    "@nestjs/common": "11.1.9",
+    "@nestjs/core": "11.1.9",
+    "@nestjs/platform-express": "11.1.9",
+    "reflect-metadata": "^0.2.2",
+    "run-script-webpack-plugin": "0.2.3",
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "@rspack/cli": "latest",
-    "@rspack/core": "latest",
-    "cross-env": "7.0.3"
-  },
-  "sideEffects": false,
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "cross-env": "10.1.0"
+  }
 }

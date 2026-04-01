@@ -1,0 +1,23 @@
+{
+  "name": "@rsbuild-example/ssr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/plugin-react": "1.4.6",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "cross-env": "^10.1.0",
+    "typescript": "^5.9.3"
+  }
+}

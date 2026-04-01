@@ -1,16 +1,16 @@
 {
-  "name": "rspress-doc-template",
+  "name": "@rspress-example/basic",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "rspress dev",
     "build": "rspress build",
+    "dev": "rspress dev",
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.11.2"
+    "rspress": "^1.47.1"
   },
   "devDependencies": {
-    "@types/node": "^16"
+    "@types/node": "^24.10.9"
   }
 }

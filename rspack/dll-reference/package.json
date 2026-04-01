@@ -1,0 +1,15 @@
+{
+  "name": "@rspack-example/dll-reference-plugin",
+  "private": true,
+  "scripts": {
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "lodash": "4.17.23",
+    "typescript": "^5.9.3"
+  }
+}

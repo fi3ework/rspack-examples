@@ -1,0 +1,19 @@
+{
+  "name": "@rspack-example/tailwindcss",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack dev"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "@tailwindcss/webpack": "^4.2.1",
+    "css-loader": "^7.1.4",
+    "tailwindcss": "^4.2.1"
+  }
+}

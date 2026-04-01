@@ -1,19 +1,20 @@
 {
-  "name": "rsbuild-solid",
-  "private": true,
+  "name": "@rsbuild-example/solid",
   "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "rsbuild dev --open",
     "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "solid-js": "^1.8.5"
+    "solid-js": "^1.9.11"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.5.1",
-    "@rsbuild/plugin-babel": "^0.5.1",
-    "@rsbuild/plugin-solid": "^0.5.1",
-    "typescript": "^5.3.0"
+    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/plugin-babel": "^1.1.2",
+    "@rsbuild/plugin-solid": "^1.1.1",
+    "typescript": "^5.9.3"
   }
 }

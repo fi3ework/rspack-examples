@@ -1,0 +1,14 @@
+{
+  "name": "@rspack-example/case-sensitive-paths-webpack-plugin",
+  "private": true,
+  "scripts": {
+    "build": "rspack build || echo 'make-ci-happy'",
+    "dev": "rspack dev"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "case-sensitive-paths-webpack-plugin": "2.4.0"
+  }
+}

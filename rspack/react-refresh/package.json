@@ -1,24 +1,21 @@
 {
-  "name": "example-rspack-react-refresh",
+  "name": "@rspack-example/rspack-react-refresh",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
-  "scripts": {
-    "dev": "rspack serve ",
-    "build": "cross-env NODE_ENV=production rspack build"
-  },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rspack build",
+    "dev": "rspack serve "
+  },
   "dependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@rspack/cli": "latest",
-    "@rspack/core": "latest",
-    "@rspack/plugin-react-refresh": "latest",
-    "react-refresh": "0.13.0"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "@rspack/plugin-react-refresh": "^1.6.1",
+    "react-refresh": "0.18.0"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "@rstest-example/rslib-adapter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rslib build",
+    "test": "rstest run"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.20.2",
+    "@rstest/adapter-rslib": "^0.2.1",
+    "@rstest/core": "^0.9.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,17 +1,17 @@
 {
-  "name": "example-worker",
+  "name": "@rspack-example/worker",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "main": "example.js",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@rspack/cli": "latest"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "devDependencies": {
-    "@rspack/core": "latest"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "remote-web-worker": "0.0.9"
   }
 }

@@ -1,20 +1,16 @@
 {
-  "name": "example-basic",
+  "name": "@rspack-example/worklet",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build"
+    "build": "rspack build",
+    "dev": "rspack dev"
   },
   "devDependencies": {
-    "esbuild": "0.19.3",
-    "@rspack/cli": "latest",
-    "@rspack/core": "latest"
-  },
-  "sideEffects": false,
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "esbuild": "0.27.2"
+  }
 }

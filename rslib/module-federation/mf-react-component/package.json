@@ -1,0 +1,38 @@
+{
+  "name": "@rslib-example/mf-react-component",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/cjs/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib mf-dev",
+    "serve": "pnpm build & http-server -p 3001 ./dist/ --cors",
+    "storybook": "storybook dev -p 6006"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "^0.23.0",
+    "@module-federation/rsbuild-plugin": "^2.3.1",
+    "@module-federation/storybook-addon": "^5.0.4",
+    "@rsbuild/plugin-react": "^1.4.6",
+    "@rslib/core": "^0.20.2",
+    "@types/react": "^19.2.10",
+    "http-server": "^14.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "storybook": "^10.2.3",
+    "storybook-addon-rslib": "^3.3.2",
+    "storybook-react-rsbuild": "^3.3.2"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

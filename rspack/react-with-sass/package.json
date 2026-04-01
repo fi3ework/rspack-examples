@@ -1,25 +1,22 @@
 {
-  "name": "example-react-example-sass",
+  "name": "@rspack-example/react-example-sass",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "rspack build",
-    "dev": "rspack serve"
+    "dev": "rspack dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@rspack/cli": "latest",
-    "@swc/helpers": "0.5.1",
-    "react": "17.0.0",
-    "react-dom": "17.0.0",
-    "sass-loader": "^13.2.0"
+    "@swc/helpers": "^0.5.20",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sass-loader": "^16.0.6"
   },
   "devDependencies": {
-    "@rspack/core": "latest",
-    "react-refresh": "^0.14.0"
+    "@rspack/cli": "2.0.0-rc.0",
+    "@rspack/core": "2.0.0-rc.0",
+    "@rspack/dev-server": "2.0.0-rc.0",
+    "react-refresh": "^0.18.0"
   }
 }

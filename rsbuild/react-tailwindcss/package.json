@@ -1,22 +1,24 @@
 {
-  "name": "rsbuild-react-tailwindcss",
-  "private": true,
+  "name": "@rsbuild-example/react-tailwindcss",
   "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "rsbuild dev --open",
     "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.5.1",
-    "@rsbuild/plugin-react": "^0.5.1",
-    "@types/react": "^18.2.47",
-    "@types/react-dom": "^18.2.18",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.0"
+    "@rsbuild/core": "2.0.0-rc.0",
+    "@rsbuild/plugin-react": "^1.4.6",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   }
 }

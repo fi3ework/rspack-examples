@@ -1,6 +1,8 @@
 packages:
   - "rspack/**"
   - "rsbuild/**"
+  - "rslib/**"
   - "rspress/**"
   - "rsdoctor/**"
-  - "libs/**"
+  - "rstest/**"
+  - "!**/dist"
